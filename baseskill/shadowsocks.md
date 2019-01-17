@@ -30,6 +30,10 @@ pip install shadowsocks
     "fast_open": false
 }
 ```
+注意事项：
+1、报错：AttributeError: /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1: undefined symbol: EVP_CIPHER_CTX_cleanup
+处理方式：修改/usr/local/lib/python2.7/dist-packages/shadowsocks/crypto/openssl.py文件中的EVP_CIPHER_CTX_cleanup修改为EVP_CIPHER_CTX_reset,这是由于在openssl 1.1.0中废弃了 EVP_CIPHER_CTX_cleanup() 函数而引入了 EVE_CIPHER_CTX_reset() 函数所导致的;
+2、shadowsocks.json配置文件中的外网服务器ip，可能需要填写0.0.0.0;
 
 配置文件编辑完成后，接下来就可以部署运行了:
 
