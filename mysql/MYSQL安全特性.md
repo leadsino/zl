@@ -12,7 +12,7 @@
 
   `Create user 'test'@'localhost' identified by '11111';`
 
-  `update user set password=password('Admin@123') where user='test';`
+  `update user set password=password('12345678') where user='test';`
 
 - 论登陆方式的重要性
 
