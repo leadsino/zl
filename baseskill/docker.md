@@ -68,7 +68,8 @@ docker pull ubuntu:16.04
 
 删除docker容器，注意删除后容器内修改的数据全部会消失。
 
-`docker rm webserver`   
+`docker rmi 9bf5a174ba16`   
+
 删除docker镜像，注意删除镜像需要先删除关联的容器和子镜像。
 
 `docker search oracle`
