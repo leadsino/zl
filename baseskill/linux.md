@@ -10,7 +10,7 @@ ps -ef 是用标准的格式显示进程的；
 
 ps aux 是用BSD的格式来显示,可以查看进程的STAT状态；
 
-###2、netstat
+### 2、netstat
 
 `netstat -pantu`
 
