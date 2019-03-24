@@ -3,7 +3,7 @@
 ### 1、启动
 
 ```
-sercie postgresql start
+service postgresql start
 msfdb init
 msfconsole
 ```
