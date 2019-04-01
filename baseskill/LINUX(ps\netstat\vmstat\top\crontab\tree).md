@@ -80,7 +80,7 @@ MiB Swap:   2045.0 total,    296.2 free,   1748.8 used.     76.3 avail Mem
 
 whereis查看命令的绝对路径
 
-###6、tree
+### 6、tree
 
 查看文件目录下所有的文件夹和文件，并以树形结构展示；
 
