@@ -88,6 +88,10 @@ zip jpg.zip *.jpg //zip格式的压缩，需要先下载zip for linux
 
 unzip file.zip //解压zip
 
+gzip id.tar //gzip压缩文件
+
+gzip -dv id.tar.gzip //gzip解压文件 
+
 
 
 
