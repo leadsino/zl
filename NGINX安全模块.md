@@ -48,7 +48,7 @@ http {
         }
 ```
 
-###二、ngx_http_limit_req_module：限制单位时间内单一IP的请求数
+### 二、ngx_http_limit_req_module：限制单位时间内单一IP的请求数
 
 ```
 http {
