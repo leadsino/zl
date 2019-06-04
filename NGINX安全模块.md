@@ -13,7 +13,7 @@ http {
     limit_conn_zone $binary_remote_addr zone=perip：10m; 
     limit_conn_zone $server_name zone=perserver：10m 
 		
-		#定义一个名为addr的limit_req_zone用来存储session，大小是10M内存，
+    #定义一个名为addr的limit_req_zone用来存储session，大小是10M内存，
     #以$binary_remote_addr 为key,
     #nginx 1.18以后用limit_conn_zone替换了limit_conn,
     #且只能放在http{}代码段．
