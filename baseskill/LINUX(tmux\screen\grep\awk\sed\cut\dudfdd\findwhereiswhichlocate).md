@@ -102,6 +102,7 @@ awk -F# '{print $2}' 1.txt
 -F参数表示字段以#作为分割符号；
 
 awk -F: '/root/{print $1}' /etc/passwd
+awk -F: '$1=="root"  {print $1}' /etc/passwd
 
 正则表达式，先匹配符合的行，然后进行分割输出字符；
 
